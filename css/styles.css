@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: linear-gradient(rgba(48, 114, 228, 0.5), rgba(125, 1, 234, 0.7));
+    min-height: 100vh;
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    padding-top: 130px;
+}
+
+@media (max-width: 760px) {
+    .text h1{
+        font-size: 28px;
+    }
+
+    .text h3{
+        font-size: 18px;
+    }
+}
